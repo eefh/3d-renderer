@@ -8,7 +8,7 @@ let c = document.getElementById("canvas");
 let ctx = c.getContext("2d");
 let viewWidth = 2.3;
 let viewHeight = 1;
-let d = 1.5;
+let d = 0.8;
 const viewportToCanvas = (x, y) => {
     return [
         ((x + 1) * c.width) / viewWidth,
