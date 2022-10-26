@@ -22,7 +22,6 @@ const drawLine = (ctx, pos1, pos2, col) => {
             drawPixel(ctx, [xMap[y - y1], y], col);
         }
     }
-    console.log("done");
 };
 
 export default drawLine;
